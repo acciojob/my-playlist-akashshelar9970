@@ -6,11 +6,24 @@
         body {
             background-color: #cccccc;
         }
+
+        .player_one {
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .player_two {
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="player_one">
-        <h1>Music Player</h1>
+        <h1>My Playlist</h1>
+        <h2>Now Playing...</h2>
         <ul>
             <li><a href="https://www.youtube.com/watch?v=kd-6aw99DpA" target="_blank">Song 1</a></li>
             <li><a href="https://www.youtube.com/watch?v=9iIX4PBplAY" target="_blank">Song 2</a></li>
@@ -18,6 +31,11 @@
             <li><a href="https://www.youtube.com/watch?v=puKD3nkB1h4" target="_blank">Song 4</a></li>
             <li><a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="_blank">Song 5</a></li>
         </ul>
+        <h2>MP3 songs</h2>
+        <audio controls>
+            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
     </div>
 
     <div class="player_two">
@@ -26,14 +44,6 @@
             <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-    </div>
-
-    <div class="player_three">
-        <h3>MP3 Player</h3>
-        <audio controls>
-            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
-            Your browser does not support the audio tag.
-        </audio>
     </div>
 </body>
 </html>
